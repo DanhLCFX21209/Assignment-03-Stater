@@ -1,0 +1,80 @@
+@media screen and (max-width: 992px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .avatar {
+    display: none;
+  }
+  .name-second {
+    display: none;
+  }
+  .info {
+    padding-left: 0px;
+  }
+
+  section > .row--3 {
+    display: block;
+    column-count: 2;
+    max-width: 700px;
+  }
+  .item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+  }
+  .certificate-item {
+    grid-template-columns: 1fr;
+  }
+  .item {
+    padding-bottom: 0;
+    grid-template-columns: 70% 30%;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .row-title {
+    align-self: end;
+  }
+  .content {
+    margin-top: 40px;
+  }
+  .project-icon {
+    flex-direction: column;
+  }
+  .view-more,
+  .view-less {
+    top: 60px;
+  }
+  /* Project Charter */
+  .grid-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .charter-list {
+    padding-left: 40px;
+  }
+  #timeline .left {
+    justify-self: left;
+  }
+  #timeline .grid {
+    row-gap: 20px;
+  }
+  #scopes .grid {
+    grid-template-columns: 1fr;
+  }
+  .charter-item h1 {
+    padding-top: 10px;
+  }
+  .charter-item .goals-title {
+    margin-top: 0;
+  }
+  #goals {
+    order: -2;
+  }
+  #scopes {
+    order: -1;
+  }
+}
